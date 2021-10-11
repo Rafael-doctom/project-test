@@ -13,10 +13,8 @@ const Lista = styled.ul`
 const ListItem = styled.li`
     list-style:none;
     font-family: 'Poppins', sans-serif;
-
-
     display: block;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
     color: #2a2a2a;
     text-transform: capitalize;
@@ -30,8 +28,10 @@ const ListItem = styled.li`
 
     padding-left: 20px;
     padding-right: 20px;
-
-    
+    &:hover{
+        color:red;
+        transform: scale(1.1);
+    }    
 `
 
 
@@ -42,8 +42,6 @@ export default function ListNav() {
     const [portfolioClick, setPortfolio] = useState(false)
     const [habilidadesClick, setHabilidades] = useState(false)
     const [contactClick, setContact] = useState(false)
-
-
 
     return (
         <>
