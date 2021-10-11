@@ -31,8 +31,6 @@ const HeaderBackground = styled.div`
     max-width: 1140px;
     `
 
-
-
 export default function Header() {
     return (
         <>
