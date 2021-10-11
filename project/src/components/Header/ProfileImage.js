@@ -1,10 +1,16 @@
 import React from 'react';
 
-
-export default function ProfileImage(){
-    return(
+// importStyles
+import styled from 'styled-components'
+const TitleProfile = styled.h1`
+    font-family: 'Poppins', sans-serif;
+`
+export default function ProfileImage() {
+    return (
         <>
-            ArtXibition
+            <TitleProfile>
+                Portfólio
+            </TitleProfile>
         </>
     )
 }
