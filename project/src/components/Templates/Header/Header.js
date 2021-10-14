@@ -1,8 +1,8 @@
 import React from 'react';
 
 // importFolders
-import ListNav from './ListNav';
-import ProfileImage from './ProfileImage';
+import ListNav from '../../Molecules/ListNav';
+import ProfileImage from '../../Molecules/ProfileImage';
 
 //  importStyles
 import styled from 'styled-components'
