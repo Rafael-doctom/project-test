@@ -17,10 +17,10 @@ const Button = styled.button`
             
     
 `
-export default function CtaButton() {
+export default function AtomCtaButton(props) {
     return (
         <>
-            <Button>Entrar em Contato</Button>
+            <Button>{props.text}</Button>
         </>
     )
 }
