@@ -1,7 +1,7 @@
 import React from 'react';
 
 // importFolders 
-import AtomCounter from '../../Atoms/AtomCounter';
+import AtomCounter from '../../Atoms/MainBanner/AtomCounter';
 
 // importStyles
 import styled from 'styled-components'
