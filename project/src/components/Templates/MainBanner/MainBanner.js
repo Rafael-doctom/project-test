@@ -1,8 +1,8 @@
 import React from 'react';
 
 // ImportFolders
-import CounterContent from './CounterContent';
-import TextContent from './TextContent'
+import CounterContent from '../../Molecules/MainBanner/CounterContent';
+// import TextContent from './TextContent'
 
 //  importStyles
 import styled from 'styled-components'
@@ -17,11 +17,12 @@ const MainBackground = styled.div`
 `
 
 export default function MainBanner() {
+    
     return (
         <>
             <MainBackground>
                 <CounterContent />
-                <TextContent />
+                {/* <TextContent /> */}
             </MainBackground>
         </>
     )
